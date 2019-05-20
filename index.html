@@ -2,79 +2,94 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Kodchasan" rel="stylesheet">
-  <link rel="stylesheet" href="css/reset.css">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Cabin|Source+Sans+Pro&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 <body>
-  <section>
-    <div class="stop-card">
-      <i class='fas fa-angle-left' style='font-size:32px;color:#E6E4C3;'></i>
-      <h1>Washington and State</h1>
-      <div class="route-list">
-        <ul>
-          <li class="route-card">
-            <h2 class="route">60</h2>
-            <p class="destination">Randolph/Harbor Dr</p>
-            <p class="direction">Eastbound</p>
-            <p class="frequency">Every 20 mintues</p>
-            <li class="route-card">
-              <p class="route">124</p>
-              <p class="destination">Navy Pier</p>
-              <p class="direction">Eastbound</p>
-              <p class="frequency">Every 10 mintues</p>
-            </li>
-            <li class="route-card">
-              <h2 class="route">152</h2>
-              <p class="destination">Devon/Clark</p>
-              <p class="direction">Northbound</p>
-              <p class="frequency"> Every 16 mintues</p>
-            </li>
-            <li class="route-card">
-              <h2 class="route">J14</h2>
-              <p class="destination">103rd/Stony Island</p>
-              <p class="direction">Southbound</p>
-              <p class="frequency"> Every 15 mintues</p>
-            </li>
-            <li class="route-card">
-              <h2 class="route">124</h2>
-              <p class="destination">Navy Pier</p>
-              <p class="direction">Southbound</p>
-              <p class="frequency"> Every 10 mintues</p>
-            </li>
-            <li class="route-card">
-              <h2 class="route">6x</h2>
-              <p class="destination">Jackson Park Express</p>
-              <p class="direction">Rerouted</p>
-              <p class="frequency"> N/A</p>
-            </li>
-            <li class="route-card">
-              <h2 class="route">4</h2>
-              <p class="destination">Cottage Grove</p>
-              <p class="frequency">Resumes 12:00am</p>
-            </li>
-            <li class="route-card">
-              <h2 class="route">20</h2>
-              <p class="destination">Madison</p>
-              <p class="frequency"> Resumes 12:10am</p>
-            </li>
-            <li class="route-card-bottom">
-              <h2 class="route">157</h2>
-              <p class="destination">Streeterville/Taylor</p>
-              <p class="frequency"> Resumes 6:00am</p>
-            </li>
-          </ul>
-          <div class="bottom-navbar">
-            <ul>
-              <li><i class="fas fa-map-marker-alt" style='color:#dfdfdf;'></i><p style='color:#dfdfdf;'>Nearby</p></li>
-              <li><i class="fas fa-home"></i><p>Home</p></li>
-              <li> <i class="fas fa-map"></i><p>Map</p></li>
-            </ul>
-              </div>
-
-          </div>
-      </div>
+  <main>
+    <ul class="status-bar">
+      <li><i class="far fa-caret-square-left"></i></li>
+      <li><p class="app-name">BusyBus</p></li>
+      <li><i class="fas fa-signal"></i></li>
+      <li><i class="fas fa-wifi"></i></li>
+      <li><p class="time-status">9:41AM</p></li>
+      <li><p class="battery-percentage">100%</p></li>
+      <li><i class="fas fa-battery-full"></i></li>
+    </ul>
+    <section class="stop-card">
+        <i class='fas fa-angle-left'></i>
+        <h1>Washington and State</h1>
     </section>
+      <ul class="route-list">
+        <li class="route-card">
+          <h2 class="route">60</h2>
+          <p class="frequency">2 min <span>Every 20 mintues</span></p>
+          <p class="destination">Randolph/Harbor Dr</p>
+          <p class="direction">Eastbound</p>
+          <i class='fas fa-angle-right'></i>
+        <li class="route-card">
+            <h2 class="route">124</h2>
+            <p class="frequency">3 min <span>Every 10 mintues</span></p>
+            <p class="destination">Navy Pier</p>
+            <p class="direction">Eastbound</p>
+            <i class='fas fa-angle-right'></i>
+        </li>
+        <li class="route-card">
+            <h2 class="route">152</h2>
+            <p class="frequency">5 min <span>Every 16 mintues</span></p>
+            <p class="destination">Devon/Clark</p>
+            <p class="direction">Northbound</p>
+            <i class='fas fa-angle-right'></i>
+        </li>
+        <li class="route-card">
+            <h2 class="route">J14</h2>
+            <p class="frequency">7 min <span>Every 15 mintues</span></p>
+            <p class="destination">103rd/Stony Island</p>
+            <p class="direction">Southbound</p>
+            <i class='fas fa-angle-right'></i>
+        </li>
+        <li class="route-card">
+            <h2 class="route">124</h2>
+            <p class="frequency">10 min <span>Every 10 mintues</span></p>
+            <p class="destination">Navy Pier</p>
+            <p class="direction">Southbound</p>
+            <i class='fas fa-angle-right'></i>
+        </li>
+        <li class="route-card">
+            <h2 class="route">6x</h2>
+            <p class="frequency"> N/A</p>
+            <p class="destination">Jackson Park Express</p>
+            <p class="direction">Rerouted</p>
+            <i class='fas fa-angle-right'></i>
+        </li>
+      <div class="inactive-routes">
+        <li class="route-card">
+            <h2 class="route">4</h2>
+            <p class="frequency">Resumes 12:00am</p>
+            <p class="destination">Cottage Grove</p>
+            <i class='fas fa-angle-right'></i>
+        </li>
+        <li class="route-card">
+            <h2 class="route">20</h2>
+            <p class="frequency"> Resumes 12:10am</p>
+            <p class="destination">Madison</p>
+            <i class='fas fa-angle-right'></i>
+        </li>
+        <li class="route-card-bottom">
+            <h2 class="route">157</h2>
+            <p class="frequency"> Resumes 6:00am</p>
+            <p class="destination">Streeterville/Taylor</p>
+            <i class='fas fa-angle-right'></i>
+        </li>
+       </ul>
+     </div>
+            <ul class="bottom-navbar">
+            <li class="active"><i class="fas fa-map-marker-alt"></i><p>Nearby</p></li>
+            <li><i class="fas fa-home"></i><p>Home</p></li>
+            <li> <i class="fas fa-map"></i><p>Map</p></li>
+          </ul>
+    </main>
   </body>
   </html>
