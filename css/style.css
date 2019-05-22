@@ -5,11 +5,11 @@ body{
   background-color: #F5F5F5;
   max-width: 575px;
   overflow: hidden;
+  width: 100%;
 }
 main{
   display: block;
-  width: 100%;
-  max-width: 575px;
+  max-width: 100%;
   margin: auto;
 }
 ul {
@@ -19,7 +19,7 @@ ul {
   padding: 0;
 }
 .status-bar {
-  width: 100%;
+  max-width: 100%;
   height: 22px;
   background-color: #101940;
   color: #dadada;
@@ -70,6 +70,7 @@ ul {
   font-family: 'Cabin', sans-serif;
   text-align: center;
   margin-top: -30.5px;
+
 }
 .fa-angle-left {
   font-size: 32px;
@@ -78,21 +79,15 @@ ul {
 }
 
 .route-list {
-  width: 100%;
+  max-width: 100%;
   height: 555px;
   background-color: #F5F5F5;
-  margin: auto;
   padding-bottom: 5px;
   position: relative;
-  top: 60px;
+  top: 55px;
   overflow-x: scroll;
 }
 
-.route-list ul{
-  width: 100%;
-  margin: auto;
-  text-align: center;
-}
 .route-list p {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 16px;
@@ -181,10 +176,7 @@ ul {
   color: #E6AF0B;
 }
 @media screen and (min-width: 575px){
-  .route-list {
-    width: 135%;
-    height: auto;
-  }
+
   .fa-angle-right {
       color: #101A40;
       font-size: 32px;
