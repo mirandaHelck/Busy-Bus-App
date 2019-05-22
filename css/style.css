@@ -78,7 +78,7 @@ ul {
 }
 
 .route-list {
-  width: 90%;
+  width: 100%;
   height: 555px;
   background-color: #F5F5F5;
   margin: auto;
@@ -88,6 +88,9 @@ ul {
   overflow-x: scroll;
 }
 
+.route-list ul{
+  text-align: center;
+}
 .route-list p {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 16px;
