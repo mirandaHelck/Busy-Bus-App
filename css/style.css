@@ -180,3 +180,20 @@ ul {
 .active p {
   color: #E6AF0B;
 }
+@media screen and (min-width: 575px){
+  .route-list {
+    width: 135%;
+    height: auto;
+  }
+  .fa-angle-right {
+      color: #101A40;
+      font-size: 32px;
+      position: absolute;
+      margin-left: 88%;
+      margin-top: -10%;
+    }
+    .inactive-routes .fa-angle-right {
+      margin-top: -6%;
+    }
+  }
+}
