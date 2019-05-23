@@ -4,12 +4,11 @@
 body{
   background-color: #F5F5F5;
   overflow: hidden;
-  width: 100%;
-  max-width: 575px;
+  max-width: 375px;
 }
 main{
   display: block;
-  max-width: 575px;
+  max-width: 375px;
   margin: auto;
 }
 ul {
