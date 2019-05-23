@@ -21,8 +21,7 @@ ul {
   padding: 0;
 }
 .status-bar {
-  width: 100%;
-  max-width: 575px;
+  width: 575px;
   height: 22px;
   background-color: #101940;
   color: #dadada;
@@ -61,8 +60,7 @@ ul {
   margin-left: 725%;
 }
 .stop-card {
-  max-width: 575px;
-  width: 100%;
+  width: 575px;
   height: 40px;
   background-color: #101940;
   color: #F0EAE1;
@@ -153,8 +151,7 @@ ul {
 }
 
 .bottom-navbar {
-  max-width: 575px;
-  width: 100%;
+  width: 575px;
   height: 70px;
   background-color: #101940;
   color: #F0EAE1;
