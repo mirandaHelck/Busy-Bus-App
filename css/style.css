@@ -131,12 +131,20 @@ ul {
   position: absolute;
   margin-left: 88%;
   margin-top: -20%;
+
+}
+.rerouted p{
+  color: #990F0F;
 }
 .inactive-routes {
   padding-bottom: 10px;
 }
+.inactive-routes p {
+  color: #88898F;
+  font-style: italic;
+}
 .inactive-routes .fa-angle-right {
-  margin-top: -17%;
+  margin-top: -15%;
 }
 .route-card-bottom {
   font-family: 'Cabin', sans-serif;
